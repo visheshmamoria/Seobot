@@ -2,11 +2,11 @@ import React from 'react';
 import { useState } from 'react';
 
 const products = [
-  { id: 1, name: 'Product A', price: 100 },
-  { id: 2, name: 'Product B', price: 150 },
-  { id: 3, name: 'Product C', price: 200 },
-  { id: 4, name: 'Product D', price: 250 },
-  { id: 5, name: 'Product E', price: 300 }
+  { id: 1, name: 'Modern Ecommerce Platform Design', price: 100 },
+  { id: 2, name: 'Responsive Online Store Template', price: 150 },
+  { id: 3, name: 'Small Business Ecommerce Package', price: 200 },
+  { id: 4, name: 'Top Ecommerce Design Examples 2025', price: 250 },
+  { id: 5, name: 'Beginners Ecommerce Site Guide', price: 300 }
 ];
 
 export default function App() {
@@ -24,14 +24,16 @@ export default function App() {
     <div style={{ padding: '30px', fontFamily: 'Arial, sans-serif', maxWidth: '1200px', margin: '0 auto' }}>
       {/* Header */}
       <header style={{ backgroundColor: '#007BFF', padding: '15px', color: '#fff', textAlign: 'center' }}>
-        <h1 style={{ fontSize: '32px' }}>Simple E-commerce</h1>
+        <h1 style={{ fontSize: '32px' }}>Best Ecommerce Website Design 2025</h1>
+        <p>Explore the best ecommerce platforms, design tips, and successful online store examples.</p>
       </header>
 
       {/* Navbar */}
       <nav style={{ display: 'flex', justifyContent: 'center', padding: '10px 0', backgroundColor: '#f1f1f1' }}>
         <a href="#" style={{ margin: '0 15px', textDecoration: 'none', color: '#007BFF' }}>Home</a>
-        <a href="#" style={{ margin: '0 15px', textDecoration: 'none', color: '#007BFF' }}>Products</a>
-        <a href="#" style={{ margin: '0 15px', textDecoration: 'none', color: '#007BFF' }}>Cart</a>
+        <a href="#" style={{ margin: '0 15px', textDecoration: 'none', color: '#007BFF' }}>Ecommerce Platforms</a>
+        <a href="#" style={{ margin: '0 15px', textDecoration: 'none', color: '#007BFF' }}>Store Examples</a>
+        <a href="#" style={{ margin: '0 15px', textDecoration: 'none', color: '#007BFF' }}>Design Tips</a>
         <a href="#" style={{ margin: '0 15px', textDecoration: 'none', color: '#007BFF' }}>Contact</a>
       </nav>
 
@@ -47,9 +49,9 @@ export default function App() {
       </div>
 
       {/* Cart Section */}
-      <h2 style={{ fontSize: '28px', marginBottom: '15px' }}>Cart</h2>
+      <h2 style={{ fontSize: '28px', marginBottom: '15px' }}>Your Cart</h2>
       {cart.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p>Your cart is empty. Explore our ecommerce site templates and online shop design ideas.</p>
       ) : (
         <div>
           {cart.map((item, index) => (
@@ -61,7 +63,7 @@ export default function App() {
 
       {/* Footer */}
       <footer style={{ backgroundColor: '#007BFF', padding: '15px', color: '#fff', textAlign: 'center', marginTop: '30px' }}>
-        <p>&copy; 2025 Simple E-commerce. All rights reserved.</p>
+        <p>&copy; 2025 Ecommerce Website Design. Discover the best ecommerce platforms and online store templates.</p>
       </footer>
     </div>
   );
