@@ -22,9 +22,12 @@ export default function App() {
 
   return (
     <div style={{ padding: '30px', fontFamily: 'Arial, sans-serif', maxWidth: '1200px', margin: '0 auto' }}>
+      {/* Main Heading */}
+      <h1 style={{ fontSize: '40px', textAlign: 'center', marginBottom: '20px' }}>Comprehensive Ecommerce Website Design and Online Store Solutions 2025</h1>
+
       {/* Header */}
       <header style={{ backgroundColor: '#007BFF', padding: '15px', color: '#fff', textAlign: 'center' }}>
-        <h1 style={{ fontSize: '36px' }}>Best Ecommerce Website Design Tips & Examples 2025</h1>
+        <h2 style={{ fontSize: '36px' }}>Best Ecommerce Website Design Tips & Examples 2025</h2>
         <p>Discover how to design a successful ecommerce website, compare the top ecommerce platforms, and explore stunning online store examples.</p>
       </header>
 
@@ -41,7 +44,7 @@ export default function App() {
       <div style={{ display: 'flex', gap: '30px', flexWrap: 'wrap', marginBottom: '30px', marginTop: '20px' }}>
         {products.map((product) => (
           <div key={product.id} style={{ padding: '15px', border: '1px solid #ccc', borderRadius: '8px', width: '220px' }}>
-            <h2 style={{ fontSize: '24px' }}>{product.name}</h2>
+            <h3 style={{ fontSize: '24px' }}>{product.name}</h3>
             <p style={{ fontSize: '14px', marginBottom: '10px' }}>{product.description}</p>
             <p style={{ fontWeight: 'bold' }}>Price: ${product.price}</p>
             <button onClick={() => addToCart(product)} style={{ padding: '8px 15px', cursor: 'pointer', backgroundColor: '#007BFF', color: '#fff', border: 'none', borderRadius: '4px' }}>Add to Cart</button>
